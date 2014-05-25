@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
+		<link href='css/ferret.css' rel='stylesheet' type='text/css'/>
+		<title>FishMe! DevBlog</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>FishMe! DevBlog</h1>
+		</div>
+		<div class="container">
+			<div class="col-sm-12 jumbotron spacer">
+				<form method="POST" action="/add">
+
+					<div class="input-group">
+						<span class="input-group-addon">#</span>
+						<input name="title" type="text" class="form-control" placeholder="Title">
+					</div>
+					
+					<div class="form-group">
+						<textarea name="content" type="text" class="form-control" rows="8" placeholder="Post Content"></textarea>
+					</div>
+
+					<button class="btn btn-primary" type"submit">Submit</button>
+				</form>
+				<a href="/" class="btn btn-primary">Back to Blog</a>
+			</div>
+		</div>
+	</body>
+
+</html>

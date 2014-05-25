@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'/>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='css/ferret.css' rel='stylesheet' type='text/css'/>
+		<title>FishMe! DevBlog</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="navbar navbar-fixed-top">
+				<h1>FishMe! DevBlog</h1>
+				<a href="/edit" class="btn btn-primary"><i class="fa fa-plus-square"></i> Add a Post</a>
+			</div>
+		</div>
+		<div class="container">
+			{{range .}}
+			<div class="col-sm-12 jumbotron">
+				<h3 class="alert alert-info text-center">{{.Title}}</h3>
+				<p class="content">{{.Content}}</p>
+				<p style="font-size: 14px; color: #212121;" class="date">{{.Date}}</p>
+				<!-- <p>{{.Comments}}</p> <= NOT IMPLEMENTED YET -->
+			</div> 
+			{{end}}
+		</div>
+	</body>
+
+</html>

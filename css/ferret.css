@@ -1,0 +1,43 @@
+body{
+	background-color: #212121;
+	background-position: cover;
+	padding-top: 30px;
+}
+h1{
+	color: #FFFFFF;
+	font-family: 'Roboto Slab', serif;
+}
+textarea{
+	resize: none;
+}
+.Content{
+	color: #FFFFFF;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+}
+	
+.date {
+	color: #FFFFFF;
+	font-size: 6px;
+	margin-bottom: 0px;
+}
+.jumbotron{
+	padding-top: 0px;
+	padding-bottom: 10px;
+	background-color: #51a351;
+}
+.alert{
+	font-family: 'Roboto Slab', serif;
+	font-size: 32px;
+	color: #FFFFFF;
+	background-color: #212121;
+	margin-left: 50px;
+	margin-right: 50px;
+	border: 10px;
+}
+.navbar{
+	padding-left: 50px;
+}
+.spacer{
+	padding-top: 5%;
+}
